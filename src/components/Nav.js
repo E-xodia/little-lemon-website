@@ -9,15 +9,15 @@ function Nav() {
 
   return (
     <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-     // <a href="/" className="logo">
-     //   <img src={logo} alt="logo.jpg" />
-     // </a>
+      <a href="/" className="logo">
+        <img src={logo} alt="logo.jpg" />
+      </a>
 
-     // <div className="menu-icon" onClick={toggleMenu}>
-     //   <div className="bar"></div>
-     //   <div className="bar"></div>
-     //   <div className="bar"></div>
-     // </div>
+      <div className="menu-icon" onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
 
       <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
         <li>
