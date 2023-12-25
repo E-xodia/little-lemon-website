@@ -46,9 +46,9 @@ function BookingForm(props) {
               </select>
             </div>
             <div>
-              <label htmlFor="book-guesst">Number of Guests:</label>
+              <label htmlFor="book-guest">Number of Guests:</label>
               <input
-                id="book-guess"
+                id="book-guest"
                 min="1"
                 value={guests}
                 onChange={(e) => {
@@ -63,7 +63,7 @@ function BookingForm(props) {
             <div>
               <label htmlFor="book-occasion">Select Ocassion</label>
               <select
-                id="book-ocassion"
+                id="book-occasion"
                 key={ocassion}
                 value={ocassion}
                 onChange={(e) => setOcassion(e.target.value)}
